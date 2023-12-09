@@ -8,7 +8,7 @@ import streamlit as st
 from streamlit_lottie import st_lottie
 from streamlit_lottie import st_lottie_spinner
 
-st.header('24/7 Rizz service for Miss Bunny 🐇', divider='rainbow')
+st.header('24/7 Rizz service for My Bunny 🐇', divider='rainbow')
 
 def load_lottiefile(filepath: str):
     with open(filepath, "r") as f:
