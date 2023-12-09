@@ -77,7 +77,7 @@ text-align: left; /* you can replace 'left' with 'center' or 'right' if you want
 <div id="page-container">
 
 <div class="footer">
-<p style='font-size: 0.875em;'>Developed with love<a style='display: inline; text-align: left;' target="_blank"> height = "15"> </a><br 'style= top:3px;'> 
+<p style='font-size: 0.875em;'>Developed with love<a style='display: inline; text-align: left;' target="_blank"> </a><br 'style= top:3px;'> 
 Khries  </a></p>
 </div>
 
