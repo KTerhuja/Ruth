@@ -33,7 +33,8 @@ def get_rizz(text):
     return rizz
 
 
-st.button("KhRizz", type="primary")
-if st.button('Let Khries Cook'):
+rizz_button = st.button("KhRizz", type="primary")
+
+if st.rizz_button:
     rizz = get_rizz(text)
     st.write(rizz)
