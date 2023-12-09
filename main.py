@@ -8,7 +8,22 @@ import streamlit as st
 from streamlit_lottie import st_lottie
 from streamlit_lottie import st_lottie_spinner
 
-st.header('24/7 Rizz service for My Bunny 🐇', divider='rainbow')
+st.set_page_config(page_title="Comorbodities of ESRD in USA",layout="wide", page_icon="🧬")
+
+
+hide = """
+<style>
+MainMenu {visibility:hidden;}
+header {visibility:hidden;}
+footer {visibility:hidden;}
+</style>
+"""
+st.markdown(hide, unsafe_allow_html=True)
+st.write(
+    "<style>div.block-container{padding-top:0rem;}</style>", unsafe_allow_html=True
+)
+
+st.header('24/7 Rizz Service for My Bunny 🐇', divider='rainbow')
 
 def load_lottiefile(filepath: str):
     with open(filepath, "r") as f:
