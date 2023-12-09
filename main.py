@@ -22,7 +22,7 @@ with open ('pickup.txt', 'r') as f:
 
 # lottie_url = "https://assets5.lottiefiles.com/packages/lf20_V9t630.json"
 
-st_lottie(lottie_file, key="user", height=400, speed=0.5)
+st_lottie(lottie_file, key="user", height=400, speed=0.1)
 
 
 def get_rizz(text): 
@@ -34,6 +34,6 @@ def get_rizz(text):
 
 
 st.button("KhRizz", type="primary")
-if st.button:
+if st.button('Let Khries Cook'):
     rizz = get_rizz(text)
     st.write(rizz)
