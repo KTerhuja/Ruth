@@ -36,4 +36,4 @@ def get_rizz(text):
 
 if st.button('KhRizz'):
     rizz = get_rizz(text)
-    st.subheader(rizz)
+    st.write(rizz)
