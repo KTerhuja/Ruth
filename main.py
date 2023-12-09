@@ -23,7 +23,7 @@ with open ('pickup.txt', 'r') as f:
 
 # lottie_url = "https://assets5.lottiefiles.com/packages/lf20_V9t630.json"
 
-st_lottie(lottie_file, key="user", height=400, speed=0.1)
+st_lottie(lottie_file, key="user", height=300, speed=0.01)
 
 
 def get_rizz(text): 
