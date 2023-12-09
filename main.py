@@ -8,7 +8,7 @@ import streamlit as st
 from streamlit_lottie import st_lottie
 from streamlit_lottie import st_lottie_spinner
 
-st.header('24/7 rizz service for Miss Bunny 🐇', divider='rainbow')
+st.header('24/7 Rizz service for Miss Bunny 🐇', divider='rainbow')
 
 def load_lottiefile(filepath: str):
     with open(filepath, "r") as f:
@@ -34,8 +34,6 @@ def get_rizz(text):
     return rizz
 
 
-st.button("KhRizz", type="primary")
-
-if st.button:
+if st.button('KhRizz'):
     rizz = get_rizz(text)
     st.write(rizz)
