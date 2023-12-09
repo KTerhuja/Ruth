@@ -11,7 +11,7 @@ from streamlit_lottie import st_lottie_spinner
 
 def load_lottiefile(filepath: str):
     with open(filepath, "r") as f:
-        return json.load(f)''
+        return json.load(f)
 
 lottie_file = load_lottiefile('animations/love.json')
 
@@ -25,7 +25,7 @@ with open ('pickup.txt', 'r') as f:
 st_lottie(lottie_file, key="user")
 
 
-def get_rizz():
+def get_rizz(): 
 
     rizz = random.choices(text)
     rizz = rizz[0].strip('\n')
